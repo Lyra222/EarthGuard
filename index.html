@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>EarthGuard Kernel</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        h1 {
+            display: flex;
+            align-items: center;
+        }
+        h1::before {
+            content: "🌍";
+            margin-right: 10px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin: 10px 0;
+        }
+        .status-allowed {
+            color: green;
+        }
+        .status-blocked {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>EarthGuard Status Monitor</h1>
+    <ul>
+        <li><strong>Co2 Ppm</strong>: 429.4</li>
+        <li><strong>Global Temp C</strong>: 1.29</li>
+        <li><strong>Biodiversity Index</strong>: 0.78</li>
+        <li><strong>Ocean Acidity</strong>: 7.89</li>
+    </ul>
+    <h2>Status: <span class="status-allowed">✅ ALLOWED</span></h2>
+    <!-- If there were issues, they would go here -->
+    <!-- <h3>Issues:</h3><ul><li>Issue 1</li></ul> -->
+</body>
+</html>
